@@ -109,41 +109,26 @@ li {
 .sub-container1{
     display: flex;
     flex-direction: column;
-    /* justify-content: space-evenly; */
     text-align: center;
-    text-decoration: none;
-    width: 50;
-    
     padding: 20px;
 }
 .sub-container2{
     display: flex;
     flex-direction: column;
-   /*  justify-content: center; */
     text-align: center;
-    text-decoration: none;
-    width: 50;
-    height: 50;
     padding: 20px;
 }
 .sub-container3{
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
     text-align: center;
-    text-decoration:none;
-    width: 50;
-    height: 50;
     padding: 20px;
 }
 .sub-container4{
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
     text-align: center;
     list-style: none;
-    width: 50;
-    height: 50;
     padding: 20px;
 
 }
@@ -159,4 +144,25 @@ li {
     justify-content: center; 
     align-items: center; 
   }
+  i {
+    margin-bottom: 20px;
+        font-size: 25px;
+        margin: 5px; 
+        text-decoration: none; color: #0077B5; /* Cambia el color de los iconos si es necesario */
+      }
+      
+.redes{
+    margin-left: auto;
+}
   
+  
+.contenedor6{
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+
+}
+.cookies1,.cookies2,.privacidad,.Contenidos,.Terminos,.Market,.Certificado,.Contacto{
+    text-decoration: none;
+}
