@@ -190,3 +190,25 @@ h1{
 .cookies1,.cookies2,.privacidad,.Contenidos,.Terminos,.Market,.Certificado,.Contacto{
     text-decoration: none;
 }
+
+.contenedor7{
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.sub-container-a{
+display: block;
+}
+
+.hola{
+    color: red;
+    font-weight: 400;
+}
+
+.pedrito{
+    width: 200;
+    height: 100;
+}
