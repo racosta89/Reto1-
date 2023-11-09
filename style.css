@@ -1,5 +1,9 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;600&display=swap');
+
+
 *{
-        font-family: Arial, Helvetica, sans-serif;
+    font-family: Poppins;
     margin: 0;
     padding: 0; 
 }
@@ -24,50 +28,51 @@
 }
 .contenedor1{
     display: flex;margin: 0; padding: 0; align-items: center; justify-content: center; margin: 0%;
-    padding: 0%;
+    padding: 0%; gap: 5px;
 }
 
 .contenedor2{
-    text-align: center; justify-content: center; 
+    gap: 10px; text-align: center; justify-content: center; 
 }
 
 
 .anuncio1{
 text-align: center;
+width: auto;
+
 }
 .img{
-    margin: 0 auto;
-    width:200%;
-    height: 100%;
+    margin: 0 auto; width:200%;height: 100%;
 }
 
 .izquierda,
 .img-left{
   left: 0; height:auto; width: 200px;}
-
-  
+ 
 .derecha,
 .img-right{
   left: 0; height:auto; width: 200px;}
-    
-    
+        
 .contenedor3{
-    display: flex;
-    gap: 15px;
-    justify-content: space-around;
-    position: relative;
+    display: flex; gap: 10px; justify-content: space-around; position: relative;
     
 }
-
 
 .colum1{
     align-items: left;
 }
+
+.camioneta{
+    width: 190px;
+    height: 600px;
+    margin-left: 0;
+}
+.colorA, .colorB{
+    color: red;
+}
 .contenedor4{
-    align-items: center;
-    display: flex;
-    flex-direction: row;
-    gap: 1%;
+    align-items: center; display: flex; flex-direction: row;
+    gap: 10px;
     width: 1;
     padding:  auto;  
     justify-content: space-around;
@@ -76,23 +81,26 @@ text-align: center;
 
 }
 
+.Mustafa, .repsol, .Bruselas{
+    color: #0077B5      ;
+}
+
+
 
 .publi2{
     right:0; height:auto; width: 200px;
 }
 
 .contenedor5{
-    font-size: medium;
+    font-size: small;
     display: flex;
     text-align: center;
     justify-content: space-around;
     text-decoration: none;
     
-    margin: 1px ;
-    padding: 1px;
-    
     
 }
+
 
 .sub-container1, .sub-container2,.sub-container3,.sub-container4{
     display: flex;
@@ -185,7 +193,7 @@ h1{
     text-decoration: none;
     justify-content: center;
     align-items: center;
-
+    font-size: small;
 }
 .cookies1,.cookies2,.privacidad,.Contenidos,.Terminos,.Market,.Certificado,.Contacto{
     text-decoration: none;
@@ -196,19 +204,46 @@ h1{
     text-decoration: none;
     justify-content: center;
     align-items: center;
-    gap: 10px;
+    gap: 5px;
 }
 
 .sub-container-a{
 display: block;
 }
 
-.hola{
-    color: red;
-    font-weight: 400;
-}
+.hola, .directo, .clave, .tribuna{
+    color: red; font-weight: 600px;}
 
 .pedrito{
     width: 200;
     height: 100;
+}
+
+.imagen-mustafa{
+    width: 330px;
+    height: 320px;
+}
+
+.tiojoe{
+    width: 500px;
+    height: 450px;
+}
+
+
+.contenedor8{
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;   
+}
+
+.sub-container-b{
+    display: flex;
+}
+
+.deporte{
+
+    width: 300px;
+    height: auto;
 }
